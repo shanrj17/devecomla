@@ -1,0 +1,16 @@
+{
+	"name": "DS_OnPremPostgreSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_OnPremPostgreSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "PostgreSqlV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "public",
+			"table": "orders"
+		}
+	}
+}
