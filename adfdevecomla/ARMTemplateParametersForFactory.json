@@ -8,10 +8,25 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"LS_Manual_Output_adls_accountKey": {
+			"value": ""
+		},
 		"LS_OnPremPostgreSQL_password": {
 			"value": ""
 		},
+		"LS_REST_TO_PAR09_accountKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlssidevcomla.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsrawdevcomla.dfs.core.windows.net/"
+		},
+		"LS_Manual_Output_adls_properties_typeProperties_url": {
 			"value": "https://adlssidevcomla.dfs.core.windows.net/"
 		},
 		"LS_OnPremPostgreSQL_properties_typeProperties_server": {
@@ -22,6 +37,15 @@
 		},
 		"LS_OnPremPostgreSQL_properties_typeProperties_username": {
 			"value": "postgres"
+		},
+		"LS_REST_TO_PAR_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/OH58Hd/data"
+		},
+		"LS_REST_TO_PAR09_properties_typeProperties_url": {
+			"value": "https://adlssidevcomla.dfs.core.windows.net/"
+		},
+		"Event_Manual_File_Injesation_properties_typeProperties_scope": {
+			"value": "/subscriptions/fbf89287-5983-4f3a-afe2-6011f2c74f3b/resourceGroups/rg_devecom/providers/Microsoft.Storage/storageAccounts/adlsrawdevcomla"
 		}
 	}
 }
