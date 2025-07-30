@@ -1,0 +1,24 @@
+{
+	"name": "Event_Manual_File_Injesation",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_ADSL_TO_PAR",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/rawpaymentdata/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/fbf89287-5983-4f3a-afe2-6011f2c74f3b/resourceGroups/rg_devecom/providers/Microsoft.Storage/storageAccounts/adlsrawdevcomla",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

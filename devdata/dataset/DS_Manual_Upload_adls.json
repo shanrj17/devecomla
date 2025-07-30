@@ -1,0 +1,19 @@
+{
+	"name": "DS_Manual_Upload_adls",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Manual_Output_adls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "payments"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
