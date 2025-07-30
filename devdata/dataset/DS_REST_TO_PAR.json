@@ -1,0 +1,12 @@
+{
+	"name": "DS_REST_TO_PAR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_TO_PAR",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "DS_REST_TO_PAR09",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_REST_TO_PAR09",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "customer"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
